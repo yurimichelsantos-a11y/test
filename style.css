@@ -1,0 +1,20 @@
+<cabecalho>[display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;]
+
+
+.cabecalho-menu
+
+"cabecalho-menu-item"{nav-links .nav-item {
+    text-decoration: none;
+    color: gray
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.2s;
+}}
