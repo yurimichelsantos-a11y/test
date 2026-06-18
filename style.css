@@ -1,20 +1,71 @@
-<cabecalho>[display: flex;
+.cabecalho{
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 5%;
-    background-color: var(--bg-color);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 1000;]
+    align-items:  center;
+}
 
+.cabecalho-titulo{
+    font-size: 3rem;
+    color: black;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
 
-.cabecalho-menu
+.cabecalho-menu{
+    display: block;
+    unicode-bidi: isolate;
+}
 
-"cabecalho-menu-item"{nav-links .nav-item {
+.cabecalho-menu-item{
     text-decoration: none;
-    color: gray
+    color: blue;
     margin: 0 15px;
     font-weight: 600;
     transition: color 0.2s;
-}}
+}
+
+.cabecalho-menu-botao{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.2s;
+    margin-bottom: 30px;
+    color: gray
+}
+
+
+.problema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    margin-bottom: 30px;
+    color: gray;
+     gap: 30px;
+}
+
+   
+.main-title {
+    font-size: 3rem;
+    color: var(--dark-neutral);
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+}
+
+.problema-imagem{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.problema-foto{    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px blue;}
